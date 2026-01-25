@@ -1,0 +1,67 @@
+body{
+    background-image: url(kepek/dark-background-abstract-background-network-3d-background-3840x2160-8324.png);
+    background-color: rgb(255, 255,255);
+    background-size: cover;
+    font-family: Arial , sans-serif;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+img{
+    width: 400px;
+    border: 10px solid rgb(50, 48, 48);
+    border-radius: 15%;
+    padding: 10px;
+    
+}
+
+a{
+    text-align: auto;
+    color: dimgrey;
+    text-decoration: none;
+    padding: 10px;
+  border: 10px solid gray;
+  border-radius: 25%;
+  background-color: rgb(50, 48, 48);
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    padding: 20px;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+
+h2{
+  padding: 20px;
+  background-color: rgb(71, 69, 69);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5%;
+}
+
+p{
+    text-align: justify;
+    font-size: 15px;
+    font-family: Rockwell;
+}
+
+
+.tartalom{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 10px; 
+}
+
+
+
+@media screen and (max-width:600px) {
+    .tarolo {
+         grid-template-columns: 1fr;
+    }
+}
