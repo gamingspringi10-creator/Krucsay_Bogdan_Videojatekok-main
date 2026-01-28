@@ -64,7 +64,9 @@ p{
 
 
 @media screen and (max-width:600px) {
-    .tarolo {
-         grid-template-columns: 1fr;
+    .menu {
+         display: grid;
+         grid-template-columns: 100%;
+         
     }
 }
